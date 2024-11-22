@@ -4,6 +4,7 @@ import time
 import datetime
 import base64
 import pymysql
+import nltknltk.download('stopwords')
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
@@ -12,6 +13,7 @@ from pdfminer3.converter import TextConverter
 import io
 from streamlit_tags import st_tags
 from PIL import Image
+
 
 from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 
