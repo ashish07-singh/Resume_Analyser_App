@@ -4,7 +4,8 @@ import time
 import datetime
 import base64
 import pymysql
-import nltknltk.download('stopwords')
+import nltk
+nltk.download('stopwords')
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
